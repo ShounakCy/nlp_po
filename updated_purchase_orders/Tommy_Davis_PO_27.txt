@@ -1,0 +1,8 @@
+Urgent order request:
+- 434 units of Conveyor Belt (Item Code: CV-6677)
+- 113 units of Compressor Unit (Item Code: CU-5643)
+- 436 units of Control Valve (Item Code: CB-3300)
+- 385 units of Motor Assembly (Item Code: BS-7890)
+
+Best,
+Tommy Davis

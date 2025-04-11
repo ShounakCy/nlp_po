@@ -1,0 +1,9 @@
+Dear Supplier,
+
+Order details:
+- 185 units of Pneumatic Cylinder (Item Code: GR-4500)
+- 335 units of Motor Assembly (Item Code: GR-4500)
+- 462 units of Gear Reducer (Item Code: GR-4500)
+- 187 units of Electrical Panel (Item Code: CU-5643)
+
+Thanks.

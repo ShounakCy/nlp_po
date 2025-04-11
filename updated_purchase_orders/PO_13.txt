@@ -1,0 +1,6 @@
+Dear Supplier,
+
+Order details:
+- 253 units of Bearing Set (Item Code: CU-5643)
+
+Thanks.

@@ -1,0 +1,7 @@
+Dear Supplier,
+
+Order details:
+- 398 units of Heat Exchanger (Item Code: CB-3300)
+- 68 units of Conveyor Belt (Item Code: BS-7890)
+
+Thanks.

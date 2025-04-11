@@ -1,0 +1,6 @@
+Dear Supplier,
+
+Order details:
+- 447 units of Heat Exchanger (Item Code: BS-7890)
+
+Thanks.

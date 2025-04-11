@@ -1,0 +1,7 @@
+Dear Supplier,
+
+Order details:
+- 304 units of Heat Exchanger (Item Code: CU-5643)
+- 434 units of Hydraulic Pump (Item Code: PC-1122)
+
+Thanks.

@@ -1,0 +1,7 @@
+Dear Supplier,
+
+Order details:
+- 477 units of Gear Reducer (Item Code: CV-6677)
+- 66 units of Compressor Unit (Item Code: PC-1122)
+
+Thanks.

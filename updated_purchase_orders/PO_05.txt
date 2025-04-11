@@ -1,0 +1,8 @@
+Subject: PO-PO-56372
+
+- 419 units of Motor Assembly (Item Code: HE-2345)
+- 457 units of Hydraulic Pump (Item Code: CU-5643)
+- 116 units of Gear Reducer (Item Code: EP-9012)
+- 171 units of Heat Exchanger (Item Code: HP-1001)
+
+Ensure delivery by January 28, 2025.
