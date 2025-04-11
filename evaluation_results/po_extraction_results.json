@@ -1,0 +1,290 @@
+{
+    "extraction": {
+        "field_metrics": {
+            "po_number": {
+                "accuracy": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "counts": {
+                    "correct": 3,
+                    "incorrect": 0,
+                    "missing": 0
+                }
+            },
+            "customer": {
+                "accuracy": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "counts": {
+                    "correct": 2,
+                    "incorrect": 0,
+                    "missing": 0
+                }
+            },
+            "delivery_date": {
+                "accuracy": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "counts": {
+                    "correct": 1,
+                    "incorrect": 0,
+                    "missing": 0
+                }
+            },
+            "line_item_count": {
+                "accuracy": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "line_items": {
+                "accuracy": 1.0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "counts": {
+                    "item_count": {
+                        "correct": 3,
+                        "total": 3
+                    },
+                    "item_codes": {
+                        "correct": 10,
+                        "total": 10
+                    },
+                    "quantities": {
+                        "correct": 10,
+                        "total": 10
+                    },
+                    "names": {
+                        "correct": 10,
+                        "total": 10
+                    },
+                    "fully_correct_items": {
+                        "correct": 10,
+                        "total": 10
+                    }
+                }
+            }
+        },
+        "overall_accuracy": 1.0,
+        "overall_precision": 1.0,
+        "overall_recall": 1.0,
+        "overall_f1": 1.0,
+        "documents_processed": 3,
+        "detailed_results": [
+            {
+                "source": "PO_11.txt",
+                "results": {
+                    "po_number": "correct"
+                },
+                "errors": [],
+                "line_item_details": [
+                    {
+                        "item_code": "HE-2345",
+                        "expected": {
+                            "quantity": 422,
+                            "item_name": "Pneumatic Cylinder",
+                            "item_code": "HE-2345"
+                        },
+                        "found": true,
+                        "extracted": {
+                            "quantity": 422,
+                            "item_name": "Pneumatic Cylinder",
+                            "item_code": "HE-2345"
+                        },
+                        "correct_code": true,
+                        "correct_quantity": true,
+                        "correct_name": true,
+                        "fully_correct": true
+                    },
+                    {
+                        "item_code": "BS-7890",
+                        "expected": {
+                            "quantity": 162,
+                            "item_name": "Hydraulic Pump",
+                            "item_code": "BS-7890"
+                        },
+                        "found": true,
+                        "extracted": {
+                            "quantity": 162,
+                            "item_name": "Hydraulic Pump",
+                            "item_code": "BS-7890"
+                        },
+                        "correct_code": true,
+                        "correct_quantity": true,
+                        "correct_name": true,
+                        "fully_correct": true
+                    },
+                    {
+                        "item_code": "CB-3300",
+                        "expected": {
+                            "quantity": 445,
+                            "item_name": "Bearing Set",
+                            "item_code": "CB-3300"
+                        },
+                        "found": true,
+                        "extracted": {
+                            "quantity": 445,
+                            "item_name": "Bearing Set",
+                            "item_code": "CB-3300"
+                        },
+                        "correct_code": true,
+                        "correct_quantity": true,
+                        "correct_name": true,
+                        "fully_correct": true
+                    }
+                ]
+            },
+            {
+                "source": "Customer_26_PO_26.txt",
+                "results": {
+                    "po_number": "correct",
+                    "customer": "correct",
+                    "delivery_date": "correct"
+                },
+                "errors": [],
+                "line_item_details": [
+                    {
+                        "item_code": "MA-2200",
+                        "expected": {
+                            "quantity": 200,
+                            "item_name": "Control Valve",
+                            "item_code": "MA-2200"
+                        },
+                        "found": true,
+                        "extracted": {
+                            "quantity": 200,
+                            "item_name": "Control Valve",
+                            "item_code": "MA-2200"
+                        },
+                        "correct_code": true,
+                        "correct_quantity": true,
+                        "correct_name": true,
+                        "fully_correct": true
+                    },
+                    {
+                        "item_code": "CU-5643",
+                        "expected": {
+                            "quantity": 430,
+                            "item_name": "Compressor Unit",
+                            "item_code": "CU-5643"
+                        },
+                        "found": true,
+                        "extracted": {
+                            "quantity": 430,
+                            "item_name": "Compressor Unit",
+                            "item_code": "CU-5643"
+                        },
+                        "correct_code": true,
+                        "correct_quantity": true,
+                        "correct_name": true,
+                        "fully_correct": true
+                    },
+                    {
+                        "item_code": "HE-2345",
+                        "expected": {
+                            "quantity": 183,
+                            "item_name": "Hydraulic Pump",
+                            "item_code": "HE-2345"
+                        },
+                        "found": true,
+                        "extracted": {
+                            "quantity": 183,
+                            "item_name": "Hydraulic Pump",
+                            "item_code": "HE-2345"
+                        },
+                        "correct_code": true,
+                        "correct_quantity": true,
+                        "correct_name": true,
+                        "fully_correct": true
+                    }
+                ]
+            },
+            {
+                "source": "Tommy_Davis_PO_27.txt",
+                "results": {
+                    "po_number": "correct",
+                    "customer": "correct"
+                },
+                "errors": [],
+                "line_item_details": [
+                    {
+                        "item_code": "CV-6677",
+                        "expected": {
+                            "quantity": 434,
+                            "item_name": "Conveyor Belt",
+                            "item_code": "CV-6677"
+                        },
+                        "found": true,
+                        "extracted": {
+                            "quantity": 434,
+                            "item_name": "Conveyor Belt",
+                            "item_code": "CV-6677"
+                        },
+                        "correct_code": true,
+                        "correct_quantity": true,
+                        "correct_name": true,
+                        "fully_correct": true
+                    },
+                    {
+                        "item_code": "CU-5643",
+                        "expected": {
+                            "quantity": 113,
+                            "item_name": "Compressor Unit",
+                            "item_code": "CU-5643"
+                        },
+                        "found": true,
+                        "extracted": {
+                            "quantity": 113,
+                            "item_name": "Compressor Unit",
+                            "item_code": "CU-5643"
+                        },
+                        "correct_code": true,
+                        "correct_quantity": true,
+                        "correct_name": true,
+                        "fully_correct": true
+                    },
+                    {
+                        "item_code": "CB-3300",
+                        "expected": {
+                            "quantity": 436,
+                            "item_name": "Control Valve",
+                            "item_code": "CB-3300"
+                        },
+                        "found": true,
+                        "extracted": {
+                            "quantity": 436,
+                            "item_name": "Control Valve",
+                            "item_code": "CB-3300"
+                        },
+                        "correct_code": true,
+                        "correct_quantity": true,
+                        "correct_name": true,
+                        "fully_correct": true
+                    },
+                    {
+                        "item_code": "BS-7890",
+                        "expected": {
+                            "quantity": 385,
+                            "item_name": "Motor Assembly",
+                            "item_code": "BS-7890"
+                        },
+                        "found": true,
+                        "extracted": {
+                            "quantity": 385,
+                            "item_name": "Motor Assembly",
+                            "item_code": "BS-7890"
+                        },
+                        "correct_code": true,
+                        "correct_quantity": true,
+                        "correct_name": true,
+                        "fully_correct": true
+                    }
+                ]
+            }
+        ]
+    }
+}

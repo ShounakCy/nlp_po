@@ -76,42 +76,62 @@ class PurchaseOrderProcessor:
         return "Unknown"
     
     def extract_items(self, text):
-        """Extract item details using only NLP-based sentence parsing"""
+        """Extract item details using improved pattern matching for multiple items"""
         items = []
-        doc = nlp(text)
+        
+        # Look for patterns like "X units of [Item Name] (Item Code: [CODE])"
+        # This regex captures each line item independently
+        item_pattern = r'(\d+)\s+units\s+of\s+([^(]+)\s*\(Item\s+Code:\s+([A-Za-z0-9-]+)\)'
+        
+        # Find all matches in the text
+        matches = re.finditer(item_pattern, text, re.IGNORECASE)
+        
+        for match in matches:
+            quantity = int(match.group(1))
+            item_name = match.group(2).strip()
+            item_code = match.group(3).strip()
+            
+            items.append({
+                'quantity': quantity,
+                'item_name': item_name,
+                'item_code': item_code
+            })
+        
+        # If no items found using regex, fall back to NLP-based extraction
+        if not items:
+            doc = nlp(text)
+            for sent in doc.sents:
+                # Sentence must contain a digit and the word "units"
+                if any(token.like_num for token in sent) and "units" in sent.text.lower():
+                    quantity = None
+                    item_code = None
+                    item_name = None
 
-        for sent in doc.sents:
-            # Sentence must contain a digit and the word "units"
-            if any(token.like_num for token in sent) and "units" in sent.text.lower():
-                quantity = None
-                item_code = None
-                item_name = None
+                    # Look for quantity (e.g. "5 units")
+                    for i, token in enumerate(sent):
+                        if token.like_num and i + 1 < len(sent) and sent[i+1].text.lower() == "units":
+                            quantity = int(token.text)
+                            break
 
-                # Look for quantity (e.g. "5 units")
-                for i, token in enumerate(sent):
-                    if token.like_num and i + 1 < len(sent) and sent[i+1].text.lower() == "units":
-                        quantity = int(token.text)
-                        break
+                    # Look for item code (e.g. "(Item Code: XYZ123)")
+                    item_code_match = re.search(r'\(Item Code: ([A-Za-z0-9-]+)\)', sent.text)
+                    item_code = item_code_match.group(1).strip() if item_code_match else None
 
-                # Look for item code (e.g. "(Item Code: XYZ123)")
-                item_code_match = re.search(r'\(Item Code: ([A-Za-z0-9-]+)\)', sent.text)
-                item_code = item_code_match.group(1).strip() if item_code_match else None
+                    # Try to extract item name using the structure around quantity and item code
+                    if quantity and item_code:
+                        name_match = re.search(
+                            fr'{quantity} units of (.*?)\(Item Code: {re.escape(item_code)}', 
+                            sent.text
+                        )
+                        item_name = name_match.group(1).strip() if name_match else None
 
-                # Try to extract item name using the structure around quantity and item code
-                if quantity and item_code:
-                    name_match = re.search(
-                        fr'{quantity} units of (.*?)\(Item Code: {re.escape(item_code)}', 
-                        sent.text
-                    )
-                    item_name = name_match.group(1).strip() if name_match else None
-
-                if quantity and item_name and item_code:
-                    items.append({
-                        'quantity': quantity,
-                        'item_name': item_name,
-                        'item_code': item_code
-                    })
-
+                    if quantity and item_name and item_code:
+                        items.append({
+                            'quantity': quantity,
+                            'item_name': item_name,
+                            'item_code': item_code
+                        })
+        
         return items
   
     def extract_po_data(self, text, filename):
@@ -151,7 +171,8 @@ class PurchaseOrderProcessor:
             
             processed_orders.append(po_data)
             
-            # Also create individual item records for compatibility with existing analysis code
+            # Create individual item records for compatibility with existing analysis code
+            # Each line item from the same PO now gets its own record
             for item in po_data["line_items"]:
                 processed_items.append({
                     'po_source': source,
@@ -164,7 +185,7 @@ class PurchaseOrderProcessor:
                     'raw_text': content
                 })
         
-        # Return both the JSON structure and a DataFrame for compatibility
+        # Create DataFrame from the processed items - allowing multiple items per source
         return processed_orders, pd.DataFrame(processed_items)
     
     def detect_potential_duplicates(self, df):
@@ -177,8 +198,11 @@ class PurchaseOrderProcessor:
         duplicates = []
         processed_pairs = set()  # To avoid comparing the same pair twice
         
-        # Group DataFrame by source to get unique POs
-        unique_pos = df.groupby('po_source').first().reset_index()
+        # Group DataFrame by source to get unique POs (one entry per source)
+        unique_pos = df.drop_duplicates('po_source')[['po_source', 'po_number', 'raw_text', 'customer']]
+        
+        # Reset index to ensure contiguous indices for the TFIDF matrix
+        unique_pos = unique_pos.reset_index(drop=True)
         
         # Create corpus for TF-IDF vectorization
         if 'raw_text' in unique_pos.columns:
@@ -188,23 +212,25 @@ class PurchaseOrderProcessor:
             # If raw_text column is missing, we can't perform text similarity
             return []
         
-        # Loop through each PO document
-        for i, row_i in unique_pos.iterrows():
+        # Loop through each PO document using the row index for tfidf_matrix access
+        for i in range(len(unique_pos)):
+            row_i = unique_pos.iloc[i]
             source_i = row_i['po_source']
             raw_text_i = row_i['raw_text']
             
-            for j, row_j in unique_pos.iterrows():
-                # Skip already processed pairs and same source
-                if i == j or (i, j) in processed_pairs or (j, i) in processed_pairs:
-                    continue
-                
+            for j in range(i + 1, len(unique_pos)):  # Start from i+1 to avoid duplicate comparisons
+                row_j = unique_pos.iloc[j]
                 source_j = row_j['po_source']
                 raw_text_j = row_j['raw_text']
                 
-                # Track that we've processed this pair
-                processed_pairs.add((i, j))
+                # Skip if we've already processed this pair (should not happen with this loop structure)
+                if (source_i, source_j) in processed_pairs or (source_j, source_i) in processed_pairs:
+                    continue
                 
-                # Calculate text similarity using TF-IDF
+                # Track that we've processed this pair
+                processed_pairs.add((source_i, source_j))
+                
+                # Calculate text similarity using TF-IDF with proper indices
                 text_similarity = cosine_similarity(
                     tfidf_matrix[i].reshape(1, -1), 
                     tfidf_matrix[j].reshape(1, -1)

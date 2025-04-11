@@ -1,0 +1,193 @@
+{
+    "extraction": {
+        "field_metrics": {
+            "po_number": {
+                "accuracy": 1.0,
+                "correct": 3,
+                "incorrect": 0,
+                "missing": 0
+            },
+            "customer": {
+                "accuracy": 1.0,
+                "correct": 2,
+                "incorrect": 0,
+                "missing": 0
+            },
+            "delivery_date": {
+                "accuracy": 1.0,
+                "correct": 1,
+                "incorrect": 0,
+                "missing": 0
+            },
+            "line_items": {
+                "accuracy": 0.3,
+                "correct": 3,
+                "total": 10
+            }
+        },
+        "overall_accuracy": 0.5625,
+        "processing_time": 0.4061238765716553,
+        "documents_processed": 3,
+        "detailed_results": [
+            {
+                "source": "PO_11.txt",
+                "results": {
+                    "po_number": "correct",
+                    "line_items": {
+                        "correct": 1,
+                        "total": 3
+                    }
+                },
+                "errors": [
+                    "Item not found: BS-7890",
+                    "Item not found: CB-3300"
+                ],
+                "ground_truth": {
+                    "po_number": "11",
+                    "customer": "Unknown",
+                    "delivery_date": null,
+                    "line_items": [
+                        {
+                            "quantity": 422,
+                            "item_name": "Pneumatic Cylinder",
+                            "item_code": "HE-2345"
+                        },
+                        {
+                            "quantity": 162,
+                            "item_name": "Hydraulic Pump",
+                            "item_code": "BS-7890"
+                        },
+                        {
+                            "quantity": 445,
+                            "item_name": "Bearing Set",
+                            "item_code": "CB-3300"
+                        }
+                    ]
+                },
+                "processed": {
+                    "po_number": "11",
+                    "customer": "Unknown",
+                    "delivery_date": null,
+                    "source": "PO_11.txt",
+                    "line_items": [
+                        {
+                            "quantity": 422,
+                            "item_name": "Pneumatic Cylinder",
+                            "item_code": "HE-2345"
+                        }
+                    ],
+                    "raw_text": "Dear Supplier,\n\nOrder details:\n- 422 units of Pneumatic Cylinder (Item Code: HE-2345)\n- 162 units of Hydraulic Pump (Item Code: BS-7890)\n- 445 units of Bearing Set (Item Code: CB-3300)\n\nThanks."
+                }
+            },
+            {
+                "source": "Customer_26_PO_26.txt",
+                "results": {
+                    "po_number": "correct",
+                    "customer": "correct",
+                    "delivery_date": "correct",
+                    "line_items": {
+                        "correct": 1,
+                        "total": 3
+                    }
+                },
+                "errors": [
+                    "Item not found: CU-5643",
+                    "Item not found: HE-2345"
+                ],
+                "ground_truth": {
+                    "po_number": "26",
+                    "customer": "Angelica Delgado",
+                    "delivery_date": "2025-02-15",
+                    "line_items": [
+                        {
+                            "quantity": 200,
+                            "item_name": "Control Valve",
+                            "item_code": "MA-2200"
+                        },
+                        {
+                            "quantity": 430,
+                            "item_name": "Compressor Unit",
+                            "item_code": "CU-5643"
+                        },
+                        {
+                            "quantity": 183,
+                            "item_name": "Hydraulic Pump",
+                            "item_code": "HE-2345"
+                        }
+                    ]
+                },
+                "processed": {
+                    "po_number": "26",
+                    "customer": "Angelica Delgado",
+                    "delivery_date": "2025-02-15",
+                    "source": "Customer_26_PO_26.txt",
+                    "line_items": [
+                        {
+                            "quantity": 200,
+                            "item_name": "Control Valve",
+                            "item_code": "MA-2200"
+                        }
+                    ],
+                    "raw_text": "- 200 units of Control Valve (Item Code: MA-2200)\n- 430 units of Compressor Unit (Item Code: CU-5643)\n- 183 units of Hydraulic Pump (Item Code: HE-2345)\nDelivery by February 15, 2025 is required.\n\nRegards,\nAngelica Delgado"
+                }
+            },
+            {
+                "source": "Tommy_Davis_PO_27.txt",
+                "results": {
+                    "po_number": "correct",
+                    "customer": "correct",
+                    "line_items": {
+                        "correct": 1,
+                        "total": 4
+                    }
+                },
+                "errors": [
+                    "Item not found: BS-7890",
+                    "Item not found: CB-3300",
+                    "Item not found: CU-5643"
+                ],
+                "ground_truth": {
+                    "po_number": "27",
+                    "customer": "Tommy Davis",
+                    "delivery_date": null,
+                    "line_items": [
+                        {
+                            "quantity": 434,
+                            "item_name": "Conveyor Belt",
+                            "item_code": "CV-6677"
+                        },
+                        {
+                            "quantity": 113,
+                            "item_name": "Compressor Unit",
+                            "item_code": "CU-5643"
+                        },
+                        {
+                            "quantity": 436,
+                            "item_name": "Control Valve",
+                            "item_code": "CB-3300"
+                        },
+                        {
+                            "quantity": 385,
+                            "item_name": "Motor Assembly",
+                            "item_code": "BS-7890"
+                        }
+                    ]
+                },
+                "processed": {
+                    "po_number": "27",
+                    "customer": "Tommy Davis",
+                    "delivery_date": null,
+                    "source": "Tommy_Davis_PO_27.txt",
+                    "line_items": [
+                        {
+                            "quantity": 434,
+                            "item_name": "Conveyor Belt",
+                            "item_code": "CV-6677"
+                        }
+                    ],
+                    "raw_text": "Urgent order request:\n- 434 units of Conveyor Belt (Item Code: CV-6677)\n- 113 units of Compressor Unit (Item Code: CU-5643)\n- 436 units of Control Valve (Item Code: CB-3300)\n- 385 units of Motor Assembly (Item Code: BS-7890)\n\nBest,\nTommy Davis"
+                }
+            }
+        ]
+    }
+}

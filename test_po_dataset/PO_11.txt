@@ -1,0 +1,8 @@
+Dear Supplier,
+
+Order details:
+- 422 units of Pneumatic Cylinder (Item Code: HE-2345)
+- 162 units of Hydraulic Pump (Item Code: BS-7890)
+- 445 units of Bearing Set (Item Code: CB-3300)
+
+Thanks.

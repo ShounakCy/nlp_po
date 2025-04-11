@@ -35,3 +35,74 @@ I implemented a solution using Python that leverages natural language processing
 3. **Database Integration**: Connect the system to a company database for real-time validation of customer information, product codes, and pricing.
 
 4. **Multi-factor Duplicate Detection**: Extend duplicate detection beyond text similarity to include semantic analysis and business rule validation.
+
+
+## Extraction Evaluation Summary
+
+### Overall Metrics
+- **Accuracy**: 1.0000  
+- **Precision**: 1.0000  
+- **Recall**: 1.0000  
+- **F1 Score**: 1.0000  
+- **Documents Processed**: 3  
+
+### Field-specific Metrics
+
+#### PO Number
+- **Accuracy**: 1.0000  
+- **Precision**: 1.0000  
+- **Recall**: 1.0000  
+- **F1 Score**: 1.0000  
+
+#### Customer
+- **Accuracy**: 1.0000  
+- **Precision**: 1.0000  
+- **Recall**: 1.0000  
+- **F1 Score**: 1.0000  
+
+#### Delivery Date
+- **Accuracy**: 1.0000  
+- **Precision**: 1.0000  
+- **Recall**: 1.0000  
+- **F1 Score**: 1.0000  
+
+#### Line Item Count
+- **Accuracy**: 1.0000  
+- **Precision**: 1.0000  
+- **Recall**: 1.0000  
+- **F1 Score**: 1.0000  
+
+#### Line Items
+- **Accuracy**: 1.0000  
+- **Precision**: 1.0000  
+- **Recall**: 1.0000  
+- **F1 Score**: 1.0000  
+
+##### Line Item Details
+- **Item Count**: 3/3  
+- **Item Codes**: 10/10  
+- **Quantities**: 10/10  
+- **Item Names**: 10/10  
+- **Fully Correct Items**: 10/10  
+
+### Document-level Evaluation (Abbreviated)
+
+#### PO_11.txt
+- **PO Number**: Correct  
+- **Line Items**: 3/3 fully correct  
+
+#### Customer_26_PO_26.txt
+- **PO Number**: Correct  
+- **Customer**: Correct  
+- **Delivery Date**: Correct  
+- **Line Items**: 3/3 fully correct  
+
+#### Tommy_Davis_PO_27.txt
+- **PO Number**: Correct  
+- **Customer**: Correct  
+- **Line Items**: 4/4 fully correct  
+
+### Additional Information
+- Full results saved to: `evaluation_results/po_extraction_results.json`  
+- **Evaluation Completed**: Overall F1 Score: 1.0000  
+- **Performance Assessment**: Excellent  
