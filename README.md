@@ -26,15 +26,6 @@ I implemented a solution using Python that leverages natural language processing
 ### Challenge 4: Missing Information
 **Solution**: Created intelligent fallbacks to extract information from filenames when document content was insufficient, and implemented a robust data structure that could accommodate partial information while maintaining integrity.
 
-## Suggestions for Further Improvements
-
-1. **Machine Learning Enhancement**: Train a custom NER (Named Entity Recognition) model specific to purchase order documents to improve extraction accuracy.
-
-2. **Fuzzy Matching for Products**: Incorporate fuzzy matching algorithms to identify similar products that might be listed with slight naming variations.
-
-3. **Database Integration**: Connect the system to a company database for real-time validation of customer information, product codes, and pricing.
-
-4. **Multi-factor Duplicate Detection**: Extend duplicate detection beyond text similarity to include semantic analysis and business rule validation.
 
 
 ## Extraction Evaluation Summary
@@ -85,7 +76,7 @@ I implemented a solution using Python that leverages natural language processing
 - **Item Names**: 10/10  
 - **Fully Correct Items**: 10/10  
 
-### Document-level Evaluation (Abbreviated)
+### Document-level Evaluation
 
 #### PO_11.txt
 - **PO Number**: Correct  
@@ -106,3 +97,14 @@ I implemented a solution using Python that leverages natural language processing
 - Full results saved to: `evaluation_results/po_extraction_results.json`  
 - **Evaluation Completed**: Overall F1 Score: 1.0000  
 - **Performance Assessment**: Excellent  
+
+
+## Suggestions for Further Improvements
+
+1. **Machine Learning Enhancement**: Train a custom NER (Named Entity Recognition) model specific to purchase order documents to improve extraction accuracy.
+
+2. **Fuzzy Matching for Products**: Incorporate fuzzy matching algorithms to identify similar products that might be listed with slight naming variations.
+
+3. **Database Integration**: Connect the system to a company database for real-time validation of customer information, product codes, and pricing.
+
+4. **Multi-factor Duplicate Detection**: Extend duplicate detection beyond text similarity to include semantic analysis and business rule validation.
