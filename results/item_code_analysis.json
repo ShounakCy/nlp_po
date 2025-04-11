@@ -1,0 +1,62 @@
+[
+    {
+        "item_code": "BS-7890",
+        "total_quantity": 2576,
+        "order_count": 10,
+        "unique_po_sources": 10
+    },
+    {
+        "item_code": "CB-3300",
+        "total_quantity": 1722,
+        "order_count": 6,
+        "unique_po_sources": 6
+    },
+    {
+        "item_code": "CU-5643",
+        "total_quantity": 3154,
+        "order_count": 10,
+        "unique_po_sources": 10
+    },
+    {
+        "item_code": "CV-6677",
+        "total_quantity": 1822,
+        "order_count": 4,
+        "unique_po_sources": 4
+    },
+    {
+        "item_code": "EP-9012",
+        "total_quantity": 964,
+        "order_count": 4,
+        "unique_po_sources": 4
+    },
+    {
+        "item_code": "GR-4500",
+        "total_quantity": 1236,
+        "order_count": 6,
+        "unique_po_sources": 6
+    },
+    {
+        "item_code": "HE-2345",
+        "total_quantity": 1682,
+        "order_count": 4,
+        "unique_po_sources": 4
+    },
+    {
+        "item_code": "HP-1001",
+        "total_quantity": 1286,
+        "order_count": 6,
+        "unique_po_sources": 6
+    },
+    {
+        "item_code": "MA-2200",
+        "total_quantity": 1892,
+        "order_count": 6,
+        "unique_po_sources": 6
+    },
+    {
+        "item_code": "PC-1122",
+        "total_quantity": 1050,
+        "order_count": 4,
+        "unique_po_sources": 4
+    }
+]

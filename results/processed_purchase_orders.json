@@ -1,0 +1,842 @@
+[
+    {
+        "po_number": "17",
+        "customer": "Unknown",
+        "delivery_date": null,
+        "source": "PO_17.txt",
+        "line_items": [
+            {
+                "quantity": 280,
+                "item_name": "Hydraulic Pump",
+                "item_code": "GR-4500"
+            }
+        ],
+        "raw_text": "Hi,\n\nWe need the following ASAP:\n- 280 units of Hydraulic Pump (Item Code: GR-4500)\n\nThanks."
+    },
+    {
+        "po_number": "03",
+        "customer": "Unknown",
+        "delivery_date": null,
+        "source": "PO_03.txt",
+        "line_items": [
+            {
+                "quantity": 447,
+                "item_name": "Heat Exchanger",
+                "item_code": "BS-7890"
+            }
+        ],
+        "raw_text": "Dear Supplier,\n\nOrder details:\n- 447 units of Heat Exchanger (Item Code: BS-7890)\n\nThanks."
+    },
+    {
+        "po_number": "18",
+        "customer": "Eugene Rodriguez",
+        "delivery_date": "2025-02-08",
+        "source": "Customer_18_PO_18.txt",
+        "line_items": [
+            {
+                "quantity": 461,
+                "item_name": "Heat Exchanger",
+                "item_code": "EP-9012"
+            }
+        ],
+        "raw_text": "- 461 units of Heat Exchanger (Item Code: EP-9012)\n- 249 units of Hydraulic Pump (Item Code: EP-9012)\nDelivery by February 08, 2025 is required.\n\nRegards,\nEugene Rodriguez"
+    },
+    {
+        "po_number": "02",
+        "customer": "Unknown",
+        "delivery_date": null,
+        "source": "PO_02.txt",
+        "line_items": [
+            {
+                "quantity": 140,
+                "item_name": "Control Valve",
+                "item_code": "BS-7890"
+            }
+        ],
+        "raw_text": "Hi,\n\nWe need the following ASAP:\n- 140 units of Control Valve (Item Code: BS-7890)\n- 360 units of Compressor Unit (Item Code: BS-7890)\n\nThanks."
+    },
+    {
+        "po_number": "16",
+        "customer": "Unknown",
+        "delivery_date": null,
+        "source": "PO_16.txt",
+        "line_items": [
+            {
+                "quantity": 185,
+                "item_name": "Pneumatic Cylinder",
+                "item_code": "GR-4500"
+            }
+        ],
+        "raw_text": "Dear Supplier,\n\nOrder details:\n- 185 units of Pneumatic Cylinder (Item Code: GR-4500)\n- 335 units of Motor Assembly (Item Code: GR-4500)\n- 462 units of Gear Reducer (Item Code: GR-4500)\n- 187 units of Electrical Panel (Item Code: CU-5643)\n\nThanks."
+    },
+    {
+        "po_number": "28",
+        "customer": "Unknown",
+        "delivery_date": "2025-02-09",
+        "source": "PO_28.txt",
+        "line_items": [
+            {
+                "quantity": 124,
+                "item_name": "Pneumatic Cylinder",
+                "item_code": "CB-3300"
+            }
+        ],
+        "raw_text": "Please process the following order:\n\n- 124 units of Pneumatic Cylinder (Item Code: CB-3300)\n\nExpected delivery: February 09, 2025."
+    },
+    {
+        "po_number": "14",
+        "customer": "Scott Simmons Jr.",
+        "delivery_date": "2025-01-30",
+        "source": "PO_14.txt",
+        "line_items": [
+            {
+                "quantity": 339,
+                "item_name": "Motor Assembly",
+                "item_code": "CB-3300"
+            }
+        ],
+        "raw_text": "- 339 units of Motor Assembly (Item Code: CB-3300)\nDelivery by January 30, 2025 is required.\n\nRegards,\nScott Simmons Jr."
+    },
+    {
+        "po_number": "28",
+        "customer": "Unknown",
+        "delivery_date": "2025-02-09",
+        "source": "Customer_28_PO_28.txt",
+        "line_items": [
+            {
+                "quantity": 124,
+                "item_name": "Pneumatic Cylinder",
+                "item_code": "CB-3300"
+            }
+        ],
+        "raw_text": "Please process the following order:\n\n- 124 units of Pneumatic Cylinder (Item Code: CB-3300)\n\nExpected delivery: February 09, 2025."
+    },
+    {
+        "po_number": "08",
+        "customer": "Diamond Bell",
+        "delivery_date": "2025-02-07",
+        "source": "Customer_8_PO_08.txt",
+        "line_items": [
+            {
+                "quantity": 291,
+                "item_name": "Motor Assembly",
+                "item_code": "PC-1122"
+            }
+        ],
+        "raw_text": "- 291 units of Motor Assembly (Item Code: PC-1122)\nDelivery by February 07, 2025 is required.\n\nRegards,\nDiamond Bell"
+    },
+    {
+        "po_number": "15",
+        "customer": "Unknown",
+        "delivery_date": null,
+        "source": "PO_15.txt",
+        "line_items": [
+            {
+                "quantity": 159,
+                "item_name": "Conveyor Belt",
+                "item_code": "HP-1001"
+            }
+        ],
+        "raw_text": "We urgently need the following:\n- 159 units of Conveyor Belt (Item Code: HP-1001)\n- 77 units of Pneumatic Cylinder (Item Code: CV-6677)\n- 107 units of Compressor Unit (Item Code: CV-6677)\n\nPlease confirm availability."
+    },
+    {
+        "po_number": "01",
+        "customer": "Unknown",
+        "delivery_date": "2025-01-29",
+        "source": "PO_01.txt",
+        "line_items": [
+            {
+                "quantity": 281,
+                "item_name": "Hydraulic Pump",
+                "item_code": "CU-5643"
+            }
+        ],
+        "raw_text": "Subject: PO-PO-24562\n\n- 281 units of Hydraulic Pump (Item Code: CU-5643)\n\nEnsure delivery by January 29, 2025."
+    },
+    {
+        "po_number": "29",
+        "customer": "Unknown",
+        "delivery_date": null,
+        "source": "PO_29.txt",
+        "line_items": [
+            {
+                "quantity": 258,
+                "item_name": "Hydraulic Pump",
+                "item_code": "CU-5643"
+            }
+        ],
+        "raw_text": "Hi,\n\nWe need the following ASAP:\n- 258 units of Hydraulic Pump (Item Code: CU-5643)\n- 36 units of Conveyor Belt (Item Code: BS-7890)\n- 42 units of Motor Assembly (Item Code: HP-1001)\n- 301 units of Bearing Set (Item Code: PC-1122)\n\nThanks."
+    },
+    {
+        "po_number": "05",
+        "customer": "Unknown",
+        "delivery_date": "2025-01-28",
+        "source": "PO_05.txt",
+        "line_items": [
+            {
+                "quantity": 419,
+                "item_name": "Motor Assembly",
+                "item_code": "HE-2345"
+            }
+        ],
+        "raw_text": "Subject: PO-PO-56372\n\n- 419 units of Motor Assembly (Item Code: HE-2345)\n- 457 units of Hydraulic Pump (Item Code: CU-5643)\n- 116 units of Gear Reducer (Item Code: EP-9012)\n- 171 units of Heat Exchanger (Item Code: HP-1001)\n\nEnsure delivery by January 28, 2025."
+    },
+    {
+        "po_number": "11",
+        "customer": "Unknown",
+        "delivery_date": null,
+        "source": "PO_11.txt",
+        "line_items": [
+            {
+                "quantity": 422,
+                "item_name": "Pneumatic Cylinder",
+                "item_code": "HE-2345"
+            }
+        ],
+        "raw_text": "Dear Supplier,\n\nOrder details:\n- 422 units of Pneumatic Cylinder (Item Code: HE-2345)\n- 162 units of Hydraulic Pump (Item Code: BS-7890)\n- 445 units of Bearing Set (Item Code: CB-3300)\n\nThanks."
+    },
+    {
+        "po_number": "26",
+        "customer": "Angelica Delgado",
+        "delivery_date": "2025-02-15",
+        "source": "Customer_26_PO_26.txt",
+        "line_items": [
+            {
+                "quantity": 200,
+                "item_name": "Control Valve",
+                "item_code": "MA-2200"
+            }
+        ],
+        "raw_text": "- 200 units of Control Valve (Item Code: MA-2200)\n- 430 units of Compressor Unit (Item Code: CU-5643)\n- 183 units of Hydraulic Pump (Item Code: HE-2345)\nDelivery by February 15, 2025 is required.\n\nRegards,\nAngelica Delgado"
+    },
+    {
+        "po_number": "20",
+        "customer": "Steven Humphrey",
+        "delivery_date": "2025-01-25",
+        "source": "Customer_20_PO_20.txt",
+        "line_items": [
+            {
+                "quantity": 21,
+                "item_name": "Compressor Unit",
+                "item_code": "EP-9012"
+            }
+        ],
+        "raw_text": "- 21 units of Compressor Unit (Item Code: EP-9012)\nDelivery by January 25, 2025 is required.\n\nRegards,\nSteven Humphrey"
+    },
+    {
+        "po_number": "06",
+        "customer": "Unknown",
+        "delivery_date": null,
+        "source": "Customer_6_PO_06.txt",
+        "line_items": [
+            {
+                "quantity": 447,
+                "item_name": "Electrical Panel",
+                "item_code": "BS-7890"
+            }
+        ],
+        "raw_text": "Hi,\n\nWe need the following ASAP:\n- 447 units of Electrical Panel (Item Code: BS-7890)\n- 234 units of Heat Exchanger (Item Code: CU-5643)\n\nThanks."
+    },
+    {
+        "po_number": "10",
+        "customer": "Unknown",
+        "delivery_date": "2025-02-19",
+        "source": "PO_10.txt",
+        "line_items": [
+            {
+                "quantity": 261,
+                "item_name": "Heat Exchanger",
+                "item_code": "MA-2200"
+            }
+        ],
+        "raw_text": "PO-PO-10507\n- 261 units of Heat Exchanger (Item Code: MA-2200)\nRequired by February 19, 2025.\nContact for any queries."
+    },
+    {
+        "po_number": "04",
+        "customer": "Emily Hendricks",
+        "delivery_date": "2025-02-02",
+        "source": "PO_04.txt",
+        "line_items": [
+            {
+                "quantity": 313,
+                "item_name": "Gear Reducer",
+                "item_code": "HP-1001"
+            }
+        ],
+        "raw_text": "- 313 units of Gear Reducer (Item Code: HP-1001)\n- 59 units of Electrical Panel (Item Code: EP-9012)\n- 178 units of Pneumatic Cylinder (Item Code: CU-5643)\nDelivery by February 02, 2025 is required.\n\nRegards,\nEmily Hendricks"
+    },
+    {
+        "po_number": "12",
+        "customer": "Unknown",
+        "delivery_date": null,
+        "source": "PO_12.txt",
+        "line_items": [
+            {
+                "quantity": 153,
+                "item_name": "Hydraulic Pump",
+                "item_code": "GR-4500"
+            }
+        ],
+        "raw_text": "Hi,\n\nWe need the following ASAP:\n- 153 units of Hydraulic Pump (Item Code: GR-4500)\n- 211 units of Heat Exchanger (Item Code: GR-4500)\n- 21 units of Electrical Panel (Item Code: CU-5643)\n- 126 units of Bearing Set (Item Code: HE-2345)\n\nThanks."
+    },
+    {
+        "po_number": "06",
+        "customer": "Unknown",
+        "delivery_date": null,
+        "source": "PO_06.txt",
+        "line_items": [
+            {
+                "quantity": 447,
+                "item_name": "Electrical Panel",
+                "item_code": "BS-7890"
+            }
+        ],
+        "raw_text": "Hi,\n\nWe need the following ASAP:\n- 447 units of Electrical Panel (Item Code: BS-7890)\n- 234 units of Heat Exchanger (Item Code: CU-5643)\n\nThanks."
+    },
+    {
+        "po_number": "10",
+        "customer": "Unknown",
+        "delivery_date": "2025-02-19",
+        "source": "Customer_10_PO_10.txt",
+        "line_items": [
+            {
+                "quantity": 261,
+                "item_name": "Heat Exchanger",
+                "item_code": "MA-2200"
+            }
+        ],
+        "raw_text": "PO-PO-10507\n- 261 units of Heat Exchanger (Item Code: MA-2200)\nRequired by February 19, 2025.\nContact for any queries."
+    },
+    {
+        "po_number": "16",
+        "customer": "Unknown",
+        "delivery_date": null,
+        "source": "Customer_16_PO_16.txt",
+        "line_items": [
+            {
+                "quantity": 185,
+                "item_name": "Pneumatic Cylinder",
+                "item_code": "GR-4500"
+            }
+        ],
+        "raw_text": "Dear Supplier,\n\nOrder details:\n- 185 units of Pneumatic Cylinder (Item Code: GR-4500)\n- 335 units of Motor Assembly (Item Code: GR-4500)\n- 462 units of Gear Reducer (Item Code: GR-4500)\n- 187 units of Electrical Panel (Item Code: CU-5643)\n\nThanks."
+    },
+    {
+        "po_number": "07",
+        "customer": "Unknown",
+        "delivery_date": null,
+        "source": "PO_07.txt",
+        "line_items": [
+            {
+                "quantity": 481,
+                "item_name": "Gear Reducer",
+                "item_code": "CU-5643"
+            }
+        ],
+        "raw_text": "We urgently need the following:\n- 481 units of Gear Reducer (Item Code: CU-5643)\n- 429 units of Compressor Unit (Item Code: HE-2345)\n- 45 units of Motor Assembly (Item Code: GR-4500)\n\nPlease confirm availability."
+    },
+    {
+        "po_number": "13",
+        "customer": "Unknown",
+        "delivery_date": null,
+        "source": "PO_13.txt",
+        "line_items": [
+            {
+                "quantity": 253,
+                "item_name": "Bearing Set",
+                "item_code": "CU-5643"
+            }
+        ],
+        "raw_text": "Dear Supplier,\n\nOrder details:\n- 253 units of Bearing Set (Item Code: CU-5643)\n\nThanks."
+    },
+    {
+        "po_number": "19",
+        "customer": "Unknown",
+        "delivery_date": null,
+        "source": "Customer_19_PO_19.txt",
+        "line_items": [
+            {
+                "quantity": 398,
+                "item_name": "Heat Exchanger",
+                "item_code": "CB-3300"
+            }
+        ],
+        "raw_text": "Dear Supplier,\n\nOrder details:\n- 398 units of Heat Exchanger (Item Code: CB-3300)\n- 68 units of Conveyor Belt (Item Code: BS-7890)\n\nThanks."
+    },
+    {
+        "po_number": "09",
+        "customer": "Unknown",
+        "delivery_date": null,
+        "source": "Customer_9_PO_09.txt",
+        "line_items": [
+            {
+                "quantity": 94,
+                "item_name": "Electrical Panel",
+                "item_code": "BS-7890"
+            }
+        ],
+        "raw_text": "We urgently need the following:\n- 94 units of Electrical Panel (Item Code: BS-7890)\n- 377 units of Control Valve (Item Code: CV-6677)\n\nPlease confirm availability."
+    },
+    {
+        "po_number": "29",
+        "customer": "Unknown",
+        "delivery_date": null,
+        "source": "Customer_29_PO_29.txt",
+        "line_items": [
+            {
+                "quantity": 258,
+                "item_name": "Hydraulic Pump",
+                "item_code": "CU-5643"
+            }
+        ],
+        "raw_text": "Hi,\n\nWe need the following ASAP:\n- 258 units of Hydraulic Pump (Item Code: CU-5643)\n- 36 units of Conveyor Belt (Item Code: BS-7890)\n- 42 units of Motor Assembly (Item Code: HP-1001)\n- 301 units of Bearing Set (Item Code: PC-1122)\n\nThanks."
+    },
+    {
+        "po_number": "07",
+        "customer": "Unknown",
+        "delivery_date": null,
+        "source": "Customer_7_PO_07.txt",
+        "line_items": [
+            {
+                "quantity": 481,
+                "item_name": "Gear Reducer",
+                "item_code": "CU-5643"
+            }
+        ],
+        "raw_text": "We urgently need the following:\n- 481 units of Gear Reducer (Item Code: CU-5643)\n- 429 units of Compressor Unit (Item Code: HE-2345)\n- 45 units of Motor Assembly (Item Code: GR-4500)\n\nPlease confirm availability."
+    },
+    {
+        "po_number": "21",
+        "customer": "Unknown",
+        "delivery_date": null,
+        "source": "Customer_21_PO_21.txt",
+        "line_items": [
+            {
+                "quantity": 304,
+                "item_name": "Heat Exchanger",
+                "item_code": "CU-5643"
+            }
+        ],
+        "raw_text": "Dear Supplier,\n\nOrder details:\n- 304 units of Heat Exchanger (Item Code: CU-5643)\n- 434 units of Hydraulic Pump (Item Code: PC-1122)\n\nThanks."
+    },
+    {
+        "po_number": "01",
+        "customer": "Unknown",
+        "delivery_date": "2025-01-29",
+        "source": "Customer_1_PO_01.txt",
+        "line_items": [
+            {
+                "quantity": 281,
+                "item_name": "Hydraulic Pump",
+                "item_code": "CU-5643"
+            }
+        ],
+        "raw_text": "Subject: PO-PO-24562\n\n- 281 units of Hydraulic Pump (Item Code: CU-5643)\n\nEnsure delivery by January 29, 2025."
+    },
+    {
+        "po_number": "17",
+        "customer": "Unknown",
+        "delivery_date": null,
+        "source": "Customer_17_PO_17.txt",
+        "line_items": [
+            {
+                "quantity": 280,
+                "item_name": "Hydraulic Pump",
+                "item_code": "GR-4500"
+            }
+        ],
+        "raw_text": "Hi,\n\nWe need the following ASAP:\n- 280 units of Hydraulic Pump (Item Code: GR-4500)\n\nThanks."
+    },
+    {
+        "po_number": "11",
+        "customer": "Unknown",
+        "delivery_date": null,
+        "source": "Customer_11_PO_11.txt",
+        "line_items": [
+            {
+                "quantity": 422,
+                "item_name": "Pneumatic Cylinder",
+                "item_code": "HE-2345"
+            }
+        ],
+        "raw_text": "Dear Supplier,\n\nOrder details:\n- 422 units of Pneumatic Cylinder (Item Code: HE-2345)\n- 162 units of Hydraulic Pump (Item Code: BS-7890)\n- 445 units of Bearing Set (Item Code: CB-3300)\n\nThanks."
+    },
+    {
+        "po_number": "12",
+        "customer": "Unknown",
+        "delivery_date": null,
+        "source": "Customer_12_PO_12.txt",
+        "line_items": [
+            {
+                "quantity": 153,
+                "item_name": "Hydraulic Pump",
+                "item_code": "GR-4500"
+            }
+        ],
+        "raw_text": "Hi,\n\nWe need the following ASAP:\n- 153 units of Hydraulic Pump (Item Code: GR-4500)\n- 211 units of Heat Exchanger (Item Code: GR-4500)\n- 21 units of Electrical Panel (Item Code: CU-5643)\n- 126 units of Bearing Set (Item Code: HE-2345)\n\nThanks."
+    },
+    {
+        "po_number": "14",
+        "customer": "Scott Simmons Jr.",
+        "delivery_date": "2025-01-30",
+        "source": "Customer_14_PO_14.txt",
+        "line_items": [
+            {
+                "quantity": 339,
+                "item_name": "Motor Assembly",
+                "item_code": "CB-3300"
+            }
+        ],
+        "raw_text": "- 339 units of Motor Assembly (Item Code: CB-3300)\nDelivery by January 30, 2025 is required.\n\nRegards,\nScott Simmons Jr."
+    },
+    {
+        "po_number": "24",
+        "customer": "Unknown",
+        "delivery_date": null,
+        "source": "Customer_24_PO_24.txt",
+        "line_items": [
+            {
+                "quantity": 160,
+                "item_name": "Conveyor Belt",
+                "item_code": "BS-7890"
+            }
+        ],
+        "raw_text": "Dear Supplier,\n\nOrder details:\n- 160 units of Conveyor Belt (Item Code: BS-7890)\n\nThanks."
+    },
+    {
+        "po_number": "02",
+        "customer": "Unknown",
+        "delivery_date": null,
+        "source": "Customer_2_PO_02.txt",
+        "line_items": [
+            {
+                "quantity": 140,
+                "item_name": "Control Valve",
+                "item_code": "BS-7890"
+            }
+        ],
+        "raw_text": "Hi,\n\nWe need the following ASAP:\n- 140 units of Control Valve (Item Code: BS-7890)\n- 360 units of Compressor Unit (Item Code: BS-7890)\n\nThanks."
+    },
+    {
+        "po_number": "30",
+        "customer": "Unknown",
+        "delivery_date": "2025-02-05",
+        "source": "Customer_30_PO_30.txt",
+        "line_items": [
+            {
+                "quantity": 485,
+                "item_name": "Compressor Unit",
+                "item_code": "MA-2200"
+            }
+        ],
+        "raw_text": "Subject: PO-PO-38585\n\n- 485 units of Compressor Unit (Item Code: MA-2200)\n- 147 units of Control Valve (Item Code: CV-6677)\n\nEnsure delivery by February 05, 2025."
+    },
+    {
+        "po_number": "04",
+        "customer": "Emily Hendricks",
+        "delivery_date": "2025-02-02",
+        "source": "Customer_4_PO_04.txt",
+        "line_items": [
+            {
+                "quantity": 313,
+                "item_name": "Gear Reducer",
+                "item_code": "HP-1001"
+            }
+        ],
+        "raw_text": "- 313 units of Gear Reducer (Item Code: HP-1001)\n- 59 units of Electrical Panel (Item Code: EP-9012)\n- 178 units of Pneumatic Cylinder (Item Code: CU-5643)\nDelivery by February 02, 2025 is required.\n\nRegards,\nEmily Hendricks"
+    },
+    {
+        "po_number": "22",
+        "customer": "Unknown",
+        "delivery_date": null,
+        "source": "Customer_22_PO_22.txt",
+        "line_items": [
+            {
+                "quantity": 477,
+                "item_name": "Gear Reducer",
+                "item_code": "CV-6677"
+            }
+        ],
+        "raw_text": "Dear Supplier,\n\nOrder details:\n- 477 units of Gear Reducer (Item Code: CV-6677)\n- 66 units of Compressor Unit (Item Code: PC-1122)\n\nThanks."
+    },
+    {
+        "po_number": "22",
+        "customer": "Unknown",
+        "delivery_date": null,
+        "source": "PO_22.txt",
+        "line_items": [
+            {
+                "quantity": 477,
+                "item_name": "Gear Reducer",
+                "item_code": "CV-6677"
+            }
+        ],
+        "raw_text": "Dear Supplier,\n\nOrder details:\n- 477 units of Gear Reducer (Item Code: CV-6677)\n- 66 units of Compressor Unit (Item Code: PC-1122)\n\nThanks."
+    },
+    {
+        "po_number": "23",
+        "customer": "Kelly Cox",
+        "delivery_date": "2025-02-03",
+        "source": "PO_23.txt",
+        "line_items": [
+            {
+                "quantity": 171,
+                "item_name": "Heat Exchanger",
+                "item_code": "HP-1001"
+            }
+        ],
+        "raw_text": "- 171 units of Heat Exchanger (Item Code: HP-1001)\n- 130 units of Hydraulic Pump (Item Code: CV-6677)\n- 427 units of Pneumatic Cylinder (Item Code: HE-2345)\n- 251 units of Hydraulic Pump (Item Code: BS-7890)\nDelivery by February 03, 2025 is required.\n\nRegards,\nKelly Cox"
+    },
+    {
+        "po_number": "09",
+        "customer": "Unknown",
+        "delivery_date": null,
+        "source": "PO_09.txt",
+        "line_items": [
+            {
+                "quantity": 94,
+                "item_name": "Electrical Panel",
+                "item_code": "BS-7890"
+            }
+        ],
+        "raw_text": "We urgently need the following:\n- 94 units of Electrical Panel (Item Code: BS-7890)\n- 377 units of Control Valve (Item Code: CV-6677)\n\nPlease confirm availability."
+    },
+    {
+        "po_number": "21",
+        "customer": "Unknown",
+        "delivery_date": null,
+        "source": "PO_21.txt",
+        "line_items": [
+            {
+                "quantity": 304,
+                "item_name": "Heat Exchanger",
+                "item_code": "CU-5643"
+            }
+        ],
+        "raw_text": "Dear Supplier,\n\nOrder details:\n- 304 units of Heat Exchanger (Item Code: CU-5643)\n- 434 units of Hydraulic Pump (Item Code: PC-1122)\n\nThanks."
+    },
+    {
+        "po_number": "20",
+        "customer": "Steven Humphrey",
+        "delivery_date": "2025-01-25",
+        "source": "PO_20.txt",
+        "line_items": [
+            {
+                "quantity": 21,
+                "item_name": "Compressor Unit",
+                "item_code": "EP-9012"
+            }
+        ],
+        "raw_text": "- 21 units of Compressor Unit (Item Code: EP-9012)\nDelivery by January 25, 2025 is required.\n\nRegards,\nSteven Humphrey"
+    },
+    {
+        "po_number": "08",
+        "customer": "Diamond Bell",
+        "delivery_date": "2025-02-07",
+        "source": "PO_08.txt",
+        "line_items": [
+            {
+                "quantity": 291,
+                "item_name": "Motor Assembly",
+                "item_code": "PC-1122"
+            }
+        ],
+        "raw_text": "- 291 units of Motor Assembly (Item Code: PC-1122)\nDelivery by February 07, 2025 is required.\n\nRegards,\nDiamond Bell"
+    },
+    {
+        "po_number": "24",
+        "customer": "Unknown",
+        "delivery_date": null,
+        "source": "PO_24.txt",
+        "line_items": [
+            {
+                "quantity": 160,
+                "item_name": "Conveyor Belt",
+                "item_code": "BS-7890"
+            }
+        ],
+        "raw_text": "Dear Supplier,\n\nOrder details:\n- 160 units of Conveyor Belt (Item Code: BS-7890)\n\nThanks."
+    },
+    {
+        "po_number": "30",
+        "customer": "Unknown",
+        "delivery_date": "2025-02-05",
+        "source": "PO_30.txt",
+        "line_items": [
+            {
+                "quantity": 485,
+                "item_name": "Compressor Unit",
+                "item_code": "MA-2200"
+            }
+        ],
+        "raw_text": "Subject: PO-PO-38585\n\n- 485 units of Compressor Unit (Item Code: MA-2200)\n- 147 units of Control Valve (Item Code: CV-6677)\n\nEnsure delivery by February 05, 2025."
+    },
+    {
+        "po_number": "18",
+        "customer": "Eugene Rodriguez",
+        "delivery_date": "2025-02-08",
+        "source": "PO_18.txt",
+        "line_items": [
+            {
+                "quantity": 461,
+                "item_name": "Heat Exchanger",
+                "item_code": "EP-9012"
+            }
+        ],
+        "raw_text": "- 461 units of Heat Exchanger (Item Code: EP-9012)\n- 249 units of Hydraulic Pump (Item Code: EP-9012)\nDelivery by February 08, 2025 is required.\n\nRegards,\nEugene Rodriguez"
+    },
+    {
+        "po_number": "15",
+        "customer": "Unknown",
+        "delivery_date": null,
+        "source": "Customer_15_PO_15.txt",
+        "line_items": [
+            {
+                "quantity": 159,
+                "item_name": "Conveyor Belt",
+                "item_code": "HP-1001"
+            }
+        ],
+        "raw_text": "We urgently need the following:\n- 159 units of Conveyor Belt (Item Code: HP-1001)\n- 77 units of Pneumatic Cylinder (Item Code: CV-6677)\n- 107 units of Compressor Unit (Item Code: CV-6677)\n\nPlease confirm availability."
+    },
+    {
+        "po_number": "13",
+        "customer": "Unknown",
+        "delivery_date": null,
+        "source": "Customer_13_PO_13.txt",
+        "line_items": [
+            {
+                "quantity": 253,
+                "item_name": "Bearing Set",
+                "item_code": "CU-5643"
+            }
+        ],
+        "raw_text": "Dear Supplier,\n\nOrder details:\n- 253 units of Bearing Set (Item Code: CU-5643)\n\nThanks."
+    },
+    {
+        "po_number": "19",
+        "customer": "Unknown",
+        "delivery_date": null,
+        "source": "PO_19.txt",
+        "line_items": [
+            {
+                "quantity": 398,
+                "item_name": "Heat Exchanger",
+                "item_code": "CB-3300"
+            }
+        ],
+        "raw_text": "Dear Supplier,\n\nOrder details:\n- 398 units of Heat Exchanger (Item Code: CB-3300)\n- 68 units of Conveyor Belt (Item Code: BS-7890)\n\nThanks."
+    },
+    {
+        "po_number": "25",
+        "customer": "Unknown",
+        "delivery_date": "2025-01-30",
+        "source": "PO_25.txt",
+        "line_items": [
+            {
+                "quantity": 234,
+                "item_name": "Motor Assembly",
+                "item_code": "PC-1122"
+            }
+        ],
+        "raw_text": "PO-PO-27022\n- 234 units of Motor Assembly (Item Code: PC-1122)\nRequired by January 30, 2025.\nContact for any queries."
+    },
+    {
+        "po_number": "23",
+        "customer": "Kelly Cox",
+        "delivery_date": "2025-02-03",
+        "source": "Customer_23_PO_23.txt",
+        "line_items": [
+            {
+                "quantity": 171,
+                "item_name": "Heat Exchanger",
+                "item_code": "HP-1001"
+            }
+        ],
+        "raw_text": "- 171 units of Heat Exchanger (Item Code: HP-1001)\n- 130 units of Hydraulic Pump (Item Code: CV-6677)\n- 427 units of Pneumatic Cylinder (Item Code: HE-2345)\n- 251 units of Hydraulic Pump (Item Code: BS-7890)\nDelivery by February 03, 2025 is required.\n\nRegards,\nKelly Cox"
+    },
+    {
+        "po_number": "27",
+        "customer": "Tommy Davis",
+        "delivery_date": null,
+        "source": "PO_27.txt",
+        "line_items": [
+            {
+                "quantity": 434,
+                "item_name": "Conveyor Belt",
+                "item_code": "CV-6677"
+            }
+        ],
+        "raw_text": "Urgent order request:\n- 434 units of Conveyor Belt (Item Code: CV-6677)\n- 113 units of Compressor Unit (Item Code: CU-5643)\n- 436 units of Control Valve (Item Code: CB-3300)\n- 385 units of Motor Assembly (Item Code: BS-7890)\n\nBest,\nTommy Davis"
+    },
+    {
+        "po_number": "05",
+        "customer": "Unknown",
+        "delivery_date": "2025-01-28",
+        "source": "Customer_5_PO_05.txt",
+        "line_items": [
+            {
+                "quantity": 419,
+                "item_name": "Motor Assembly",
+                "item_code": "HE-2345"
+            }
+        ],
+        "raw_text": "Subject: PO-PO-56372\n\n- 419 units of Motor Assembly (Item Code: HE-2345)\n- 457 units of Hydraulic Pump (Item Code: CU-5643)\n- 116 units of Gear Reducer (Item Code: EP-9012)\n- 171 units of Heat Exchanger (Item Code: HP-1001)\n\nEnsure delivery by January 28, 2025."
+    },
+    {
+        "po_number": "03",
+        "customer": "Unknown",
+        "delivery_date": null,
+        "source": "Customer_3_PO_03.txt",
+        "line_items": [
+            {
+                "quantity": 447,
+                "item_name": "Heat Exchanger",
+                "item_code": "BS-7890"
+            }
+        ],
+        "raw_text": "Dear Supplier,\n\nOrder details:\n- 447 units of Heat Exchanger (Item Code: BS-7890)\n\nThanks."
+    },
+    {
+        "po_number": "25",
+        "customer": "Unknown",
+        "delivery_date": "2025-01-30",
+        "source": "Customer_25_PO_25.txt",
+        "line_items": [
+            {
+                "quantity": 234,
+                "item_name": "Motor Assembly",
+                "item_code": "PC-1122"
+            }
+        ],
+        "raw_text": "PO-PO-27022\n- 234 units of Motor Assembly (Item Code: PC-1122)\nRequired by January 30, 2025.\nContact for any queries."
+    },
+    {
+        "po_number": "27",
+        "customer": "Tommy Davis",
+        "delivery_date": null,
+        "source": "Tommy_Davis_PO_27.txt",
+        "line_items": [
+            {
+                "quantity": 434,
+                "item_name": "Conveyor Belt",
+                "item_code": "CV-6677"
+            }
+        ],
+        "raw_text": "Urgent order request:\n- 434 units of Conveyor Belt (Item Code: CV-6677)\n- 113 units of Compressor Unit (Item Code: CU-5643)\n- 436 units of Control Valve (Item Code: CB-3300)\n- 385 units of Motor Assembly (Item Code: BS-7890)\n\nBest,\nTommy Davis"
+    },
+    {
+        "po_number": "26",
+        "customer": "Angelica Delgado",
+        "delivery_date": "2025-02-15",
+        "source": "PO_26.txt",
+        "line_items": [
+            {
+                "quantity": 200,
+                "item_name": "Control Valve",
+                "item_code": "MA-2200"
+            }
+        ],
+        "raw_text": "- 200 units of Control Valve (Item Code: MA-2200)\n- 430 units of Compressor Unit (Item Code: CU-5643)\n- 183 units of Hydraulic Pump (Item Code: HE-2345)\nDelivery by February 15, 2025 is required.\n\nRegards,\nAngelica Delgado"
+    }
+]
